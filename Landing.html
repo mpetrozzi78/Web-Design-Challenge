@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Latitude Analysis</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Section -->
+        <!-- Creation of the Navbar -->
+
+        <div class="navbar">
+                <a href="Landing.html">Latitude</a>
+
+                <!-- Creation of the dropdown menu -->
+                <div class="dropdown">
+                  <button class="dropbtn">Plots
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="Visualization_MaxTemp.html">Max Temperature</a>
+                    <a href="Visualization_Humidity.html">Humidity</a>
+                    <a href="Visualization_Cloudiness.html">Cloudiness</a>
+                    <a href="Visualization_Windspeed.html">Wind Speed</a>
+                  </div>
+                </div>
+
+                <a href="Comparisons.html">Comparison</a>
+                <a href="Data.html">Data</a>
+              </div>
+
+    
+        <!-- Content Section -->
+			  
+			  <div class="container">
+				  <div class="row">
+				   <div class="col-md-1"></div>  
+					 <div class="col-md-6">
+					<h1>Summary</h1>
+					  <img src="MaxTemp.png" width="400" height="350">
+					  <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. </p>
+					  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p> 
+				   </div>    
+					 <div class="col-md-4 sidebar">
+					  <div class="row">
+						<div class="col-md-12">
+						  <h1>Visualizations</h1>
+						</div>
+					  </div>
+					 <div class="row">
+			  
+						<div class="col-md-3">    
+							 <a href="Visualization_MaxTemp.html">Max Temperature<img src="MaxTemp.png" width="200px" height="150px"></a>
+						</div>
+						<div class="col-md-3"></div>
+					  
+						<div class="col-md-3">  
+							 <a href="Visualization_Humidity.html">Humidity<img src="Humidity.png" width="200px" height="150px"></a>
+						</div>
+						<div class="col-md-3"></div>  
+					 </div>   
+					 <div class ="row"> 
+						
+						<div class="col-md-3">  
+						  <a href="Visualization_Cloudiness.html">Cloudiness<img src="Cloudiness.png" width="200px" height="150px"></a>
+						</div>
+						<div class="col-md-3"></div>
+			  
+						<div class="col-md-3">     
+						  <a href="Visualization_Windspeed.html">Wind Speed<img src="Windspeed.png" width="200px" height="150px"></a>
+						</div>
+						<div class="col-md-3"></div>
+					  </div>    
+				   </div>         
+				  <div class="col-md-1"></div>
+				</div>      
+			  </div>			  
+</body>
+
+</html>
