@@ -22,11 +22,22 @@ body {
   background-color: rgb(253, 253, 253);
 }
 
+#latitude_box {
+  background-color: darkturquoise;
+  font-size: large;
+  color: rgb(252, 250, 250);
+}
+
+
 /* p {
   display: inline;
 } */
 
 h1 {
+  color: darkturquoise;
+}
+
+h3 {
   color: darkturquoise;
 }
 
